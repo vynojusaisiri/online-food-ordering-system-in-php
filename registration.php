@@ -78,7 +78,6 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
 
 ?>
 
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -107,8 +106,8 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                   <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                      <ul class="nav navbar-nav">
 							<li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
-                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurants <span class="sr-only"></span></a> </li>
-                            
+                     <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurants <span class="sr-only"></span></a> </li>
+                     <li class="nav-item"> <a class="nav-link active" href="aboutus.php">About us<span class="sr-only"></span></a> </li>
 							<?php
 						if(empty($_SESSION["user_id"]))
 							{
@@ -210,24 +209,7 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                         <hr>
                         <img src="http://placehold.it/400x300" alt="" class="img-fluid">
                         <p></p>
-                        <div class="panel">
-                           <div class="panel-heading">
-                              <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle collapsed" href="#faq1" aria-expanded="false"><i class="ti-info-alt" aria-hidden="true"></i>Can I viverra sit amet quam eget lacinia?</a></h4>
-                           </div>
-                           <div class="panel-collapse collapse" id="faq1" aria-expanded="false" role="article" style="height: 0px;">
-                              <div class="panel-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rutrum ut erat a ultricies. Phasellus non auctor nisi, id aliquet lectus. Vestibulum libero eros, aliquet at tempus ut, scelerisque sit amet nunc. Vivamus id porta neque, in pulvinar ipsum. Vestibulum sit amet quam sem. Pellentesque accumsan consequat venenatis. Pellentesque sit amet justo dictum, interdum odio non, dictum nisi. Fusce sit amet turpis eget nibh elementum sagittis. Nunc consequat lacinia purus, in consequat neque consequat id. </div>
-                           </div>
-                        </div>
-                        <!-- end:panel -->
-                        <div class="panel">
-                           <div class="panel-heading">
-                              <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" class="panel-toggle" href="#faq2" aria-expanded="true"><i class="ti-info-alt" aria-hidden="true"></i>Can I viverra sit amet quam eget lacinia?</a></h4>
-                           </div>
-                           <div class="panel-collapse collapse" id="faq2" aria-expanded="true" role="article">
-                              <div class="panel-body"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rutrum ut erat a ultricies. Phasellus non auctor nisi, id aliquet lectus. Vestibulum libero eros, aliquet at tempus ut, scelerisque sit amet nunc. Vivamus id porta neque, in pulvinar ipsum. Vestibulum sit amet quam sem. Pellentesque accumsan consequat venenatis. Pellentesque sit amet justo dictum, interdum odio non, dictum nisi. Fusce sit amet turpis eget nibh elementum sagittis. Nunc consequat lacinia purus, in consequat neque consequat id. </div>
-                           </div>
-                        </div>
-                        <!-- end:Panel -->
+                        
                         <h4 class="m-t-20">Contact Customer Support</h4>
                         <p> If you"re looking for more help or have a question to ask, please </p>
                         <p> <a href="contact.html" class="btn theme-btn m-t-15">contact us</a> </p>
